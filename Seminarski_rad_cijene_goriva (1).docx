@@ -1,0 +1,23 @@
+# Analiza i predviđanje kretanja cijena goriva
+
+Autor: Josip Jurković, FPMOZ Informatika
+
+Projekt koristi službene tjedne podatke Europske komisije i analizira cijene benzina Euro 95 i dizela u Hrvatskoj, Sloveniji i EU.
+
+## Sadržaj
+- `Uvod_u_podatkovnu_znanost_cijene_goriva.ipynb` – osnovni projekt
+- `Informatički_projekt_cijene_goriva.ipynb` – prošireni projekt
+- `Seminarski_rad_cijene_goriva.docx` – projektni izvještaj
+- `data/fuel_prices_clean.csv` – očišćeni podaci
+- `data/Weekly_Oil_Bulletin_Prices_History.xlsx` – izvorna tablica
+- `outputs/` – tablični rezultati
+
+## Pokretanje
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+Otvoriti notebook i odabrati Run All.
+
+## Izvor
+European Commission, Weekly Oil Bulletin: https://energy.ec.europa.eu/data-and-analysis/weekly-oil-bulletin_en
